@@ -19,7 +19,6 @@ public class MultiCasting : MonoBehaviour
                 new_position = last_position + (_direction * _distanceFromStartingPoint);
 
             var colliders_detected = Physics.OverlapSphere(new_position, _radius);
-            Debug.Log(colliders_detected.Length);
             if (colliders_detected.Length > 0) collisions.AddRange(colliders_detected);
 
             last_position = new_position;
