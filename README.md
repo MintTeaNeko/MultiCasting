@@ -10,7 +10,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TimerTesting : MonoBehaviour
+public class MyClassScript : MonoBehaviour
 {
     [SerializeField] private float _radius;
 
